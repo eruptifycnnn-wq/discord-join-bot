@@ -10,7 +10,7 @@ const client = new Client({
   partials: [Partials.Channel]
 });
 
-const TOKEN = "MTQ2OTc4OTYxNTYzNTMwMDM1Mg.GXiENQ.Im0XqBpO1IHQdf1NMrVRnYTq9EaU0qBW619y0U";
+const TOKEN = "MTQ2OTc4OTYxNTYzNTMwMDM1Mg.GeVphA.FHEdYwYilgroPRHpZdjyU9OFKRbJVng4fc9pLU";
 const OWNER_ID = "1468409531326402651";
 
 let invitesCache = new Map();
@@ -60,3 +60,4 @@ client.on("guildMemberAdd", async member => {
 });
 
 client.login(TOKEN);
+
